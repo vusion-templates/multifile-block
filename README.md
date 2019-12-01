@@ -1,7 +1,7 @@
-# <%= name %>
+# <%= componentName %>
 
 description
 
 ``` html
-<<%= name %>></<%= name %>>
+<<%= tagName %>></<%= tagName %>>
 ```
