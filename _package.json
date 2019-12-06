@@ -17,12 +17,12 @@ print(JSON.stringify(inVusionProject ? {
   "dev": "../../../node_modules/.bin/vue-cli-service doc --port 9090",
   "build:doc": "../../../node_modules/.bin/vue-cli-service doc-build",
   "screenshot": "vusion screenshot public/index.html --code-example --package",
-  "prepublishOnly": "npm run build:doc && npm run screenshot && git add ."
+  "prepublishOnly": "npm run build:doc && npm run screenshot"
 } : {
   "dev": "vue-cli-service doc --port 9090",
   "build:doc": "vue-cli-service doc-build",
   "screenshot": "vusion screenshot public/index.html --code-example --package",
-  "prepublishOnly": "npm run build:doc && npm run screenshot && git add ."
+  "prepublishOnly": "npm run build:doc && npm run screenshot"
 }, null, 2));
 %>,
   "vuePlugins":
